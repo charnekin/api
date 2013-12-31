@@ -60,7 +60,7 @@ Easy? (^_^)
   HOW TO
 ****************************************************************************************
 
---- Create a new module/page
+  --- Create a new module/page
    
       1. add the new module in /js/components/proyect_router.js (backbone router)
       2. copy/paste a example folder with your favourite flavour
@@ -70,35 +70,34 @@ Easy? (^_^)
       5. parse and customize your new_module.html as you want ;)
       6. add your js magic code in your new_module.js
 
---- Add new third library
+  --- Add new third library
 
       1. do new folder in /js/libs/ and copy whatever.js
       2. add library in /js/main.js (remember especify dependencies in shim: if have someone)
 
---- Set default language
+  --- Set default language
 
       1. set language id desired in /js/components/proyect_config.js --> default_language var
 
---- Do not show MainMenu
+  --- Do not show MainMenu
    
       1. set main_menu to false in /js/components/proyect_config.js
       
---- Set another init module 
+  --- Set another init module 
 
       1. set desired module id in /js/components/proyect_config.js --> startModule var
       
---- Add another language
+  --- Add another language
 
       1. clone json language entry in /js/components/proyect_literals
       2. add new language in each "languages":  array
       3. add a button with id language value in /js/components/modules/main_menu.html
       
---- Add/Customize main menu
+  --- Add/Customize main menu
 
       1. html changes: /js/components/modules/main_menu.html
       2. functionality changes: /js/components/api/menu.js
-      
-(soon configurable enviroment url too)
+
 
 
 
@@ -137,7 +136,7 @@ Easy? (^_^)
             
 
 
-            
+
 
 ****************************************************************************************
   IN THE NEXT UPDATE SOON
