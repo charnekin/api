@@ -1,0 +1,38 @@
+<div id="example3" data-role="page"></div>
+
+
+<script type="text/template" id="tpl_example3">
+
+    <div class="jumbotron">
+      <h1><%= title %></h1>
+      <p><%= description %></p>
+    </div>
+    <div class="panel panel-default">
+    
+        <!-- Default panel contents -->
+        <div class="panel-heading"><%= pane_title %></div>
+
+            <!-- Table -->
+            <table  id="example3_item_list" class="table">
+               
+            </table>
+        </div>
+    </div>
+    <ul class="pager">
+      <li><a class="prevButton" href="#example2"><%=LITERALS.getButtonLiteral("prevButton")%></a></li>
+      <li><a class="homeButton" href="#home"><%=LITERALS.getButtonLiteral("homeButton")%></a></li>
+    </ul>
+</script> 
+
+
+<script type="text/template" id="tpl_example3_item">
+    <tr>
+        <td><%= attributes.data %></td>
+        <td><%= attributes.data2 %></td>
+        <td><%= attributes.data3 %></td>
+        <td><%= attributes.data4 %></td>
+        <td><%= attributes.data5 %></td>
+    </tr>
+</script> 
+
+

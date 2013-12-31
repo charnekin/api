@@ -1,0 +1,27 @@
+{
+    "_control": {
+        "_error_code": "00",
+        "_error_desc": "Petición exitosa"
+    },
+    "_data": { 
+        "_favList": [
+        {
+            "_dest_airport_name": "Madrid",
+            "_dep_airport_name": "Manchester",
+            "_dest_airport_code": "MAD",
+            "_dep_airport_code": "MAN",
+            "_flight_code": "RZG3176",
+            "_airline": "American Airlines",
+            "_airline_code": "iberia",
+            "_status": "ONT",
+            "_date": "1379420640",
+            "_expected": "1379423100",
+            "_carruselType":"arrival",
+            "terminal": "TX",
+            "desk": "XX",
+            "gate": "XX"
+
+        }
+        ]
+    }
+}
