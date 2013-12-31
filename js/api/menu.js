@@ -10,7 +10,7 @@ MainMenu = {};
         $('#menuContainer').html(HTML);
         MainMenu.setMenuLiterals();
         bindMenuAnimations();
-        LITERALS.setLanguageLiterals();
+        LITERALS.setLanguageLiteralsInMainMenu();
         LITERALS.bindLanguageOptions();
     });
   };

@@ -23,13 +23,13 @@ LITERALS = {};
     return data[lang].mainMenu.options;
   };
 
-  this.getLanguages = function (key) {
+  this.getActualLanguage = function (key) {
     var lang = Proyect.CONFIG.app.default_language;
     return data[lang].languages;
   };
 
-  this.setLanguageLiterals = function () {
-    var languages = LITERALS.getLanguages();
+  this.setLanguageLiteralsInMainMenu = function () {
+    var languages = LITERALS.getActualLanguage();
     $(".language").each(function(index){
         $(this).html(languages[index].language);
     });

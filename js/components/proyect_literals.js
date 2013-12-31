@@ -145,7 +145,7 @@ LITERALDATA = {
                 "about_title": "Acerca de/Contacto",
                 "about_desc1": "Muy pronto guía completa de manejo del API",
                 "about_git": "cuenta github",
-                "about_twitter": "Questions and suggestions:",
+                "about_twitter": "Preguntas y sugerencias:",
                 "about_email": "O mandame un email a:",
                 "about_button": "Volver a la home",    
             },
