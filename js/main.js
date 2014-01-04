@@ -1,6 +1,7 @@
 require.config({
     baseUrl: 'js',
     paths: {
+        cordova: '../cordova',
     	jquery: 'libs/jquery/jquery-2.0.3.min',
         underscore: 'libs/underscore/underscore-min',
         backbone: 'libs/backbone/backbone-min',

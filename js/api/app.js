@@ -5,6 +5,7 @@ App = {};
   this.actualModule;
 
   this.startApp = function(){
+      cordovaLoadIfMobile();
       App.loadMenu();
     	App.loadModule(Proyect.CONFIG.app.startModule);
   };
@@ -51,7 +52,25 @@ App = {};
 
       getDependencies();
     
-  }; 
+  };
+
+
+
+  var cordovaLoadIfMobile = function () {
+
+      var isMobile = function () {
+         var protocol = location.protocol;
+         if ( protocol.indexOf("http:") === 0 ){
+            return false;
+         }else{
+            return true;
+         }
+      };
+
+      if(isMobile()){
+        requirejs(['cordova']);
+      }
+  };
   
 }).apply( App );
 

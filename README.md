@@ -17,9 +17,13 @@ It had included:
 - Require
 - Jquery
 - Backbone / Underscore
+- Cordova is loaded only in mobile (not loaded through browsers)
 
-Online demo at:
+Online webapp demo at:
 http://yopo.es/cordovapi/
+
+Demo apk avaiable at:
+http://yopo.es/cordovapi/cordovapi.apk
 
 
 
@@ -27,8 +31,8 @@ http://yopo.es/cordovapi/
   STARTING WITH API
 ****************************************************************************************
 
-1. Download the code and put in you /www cordova proyect. 
-2. Compile
+1. Download the code and put in you main /www cordova proyect. 
+2. Build
 
 Easy? (^_^)
 
@@ -40,7 +44,7 @@ Easy? (^_^)
 ****************************************************************************************
 
 
-/css --> all style stuff. I recommend to point your LESS/SASS out in proyect.css file.
+/css --> all styles stuff. I recommend to point your LESS/SASS out in proyect.css file.
 /css/menu_type1_resources --> this folder contains the resources for slider main menu. 
                               It's in independent folder for easy remove if don't want a main menu.
 
