@@ -32,10 +32,11 @@ http://yopo.es/cordovapi/cordovapi.apk
 ****************************************************************************************
 
 1. Download and put all code into main www folder of your cordova proyect
-      /merges
-      /platforms
-      /plugins
-      /www --> insert all api code here
+
+        /merges
+        /platforms
+        /plugins
+        /www --> insert all api code here
 
 * You have to be created one cordova proyect. http://goo.gl/aUVPSM
 * You must install Device Plugin in your cordova proyect: http://goo.gl/jcB2Cd 
@@ -51,18 +52,38 @@ http://yopo.es/cordovapi/cordovapi.apk
 ****************************************************************************************
 
 
-/css --> all styles stuff. I recommend to point your LESS/SASS out in proyect.css file.
-/css/menu_type1_resources --> this folder contains the resources for slider main menu. 
-                              It's in independent folder for easy remove if don't want a main menu.
+/css 
 
-/dummys --> JSON data files for test before integration. (not avaiable yet)
+        all styles stuff. Recommended to point your LESS/SASS out in proyect.css file.
 
-/js/main.js --> requiere config and requiere loads all js dependencies of the proyect.
+/css/menu_type1_resources 
 
-/js/api --> Generic api
-/js/components --> Specific components of proyect 
-/js/components/modules --> pages/modules of proyect (3 different examples for copy/paste)
-/js/libs --> Third libraries
+        - this folder contains the resources for slider main menu. 
+        - It's in independent folder for easy remove if don't want a main menu.
+
+/dummys  
+
+        - JSON data files for test before integration. (not avaiable yet)
+
+/js/main.js 
+
+        - require config and require load of the proyect.
+
+/js/api 
+
+        - Generic api
+
+/js/components 
+
+        -Specific components of proyect 
+
+/js/components/modules 
+
+        - Pages/modules of proyect (3 different examples for copy/paste)
+
+/js/libs
+
+        - Third libraries
 
 
 
