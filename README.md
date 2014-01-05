@@ -32,16 +32,16 @@ http://yopo.es/cordovapi/cordovapi.apk
 ****************************************************************************************
 
 1. Download and put all code into main www folder of your cordova proyect
-  /merges
-  /platforms
-  /plugins
-  /www --> insert all api downloaded here
+      /merges
+      /platforms
+      /plugins
+      /www --> insert all api code here
 
-* 1.1 You have to be one cordova proyect and at least one platform added. Official docs: http://goo.gl/aUVPSM
-* 1.2 You must install Device Plugin in your cordova proyect: http://goo.gl/jcB2Cd 
+* You have to be created one cordova proyect. http://goo.gl/aUVPSM
+* You must install Device Plugin in your cordova proyect: http://goo.gl/jcB2Cd 
 
 
-2. Compile
+
 
 
 
