@@ -114,13 +114,13 @@ Easy? (^_^)¡
 
       1. set language id desired in /js/components/proyect_config.js --> default_language var
 
-  --- Do not show MainMenu
+  --- Hide MainMenu
    
       1. set main_menu to false in /js/components/proyect_config.js
       
   --- Set another init module 
 
-      1. set desired module id in /js/components/proyect_config.js --> startModule var
+      1. set desired module id for start app in /js/components/proyect_config.js --> startModule var
       
   --- Add another language
 
