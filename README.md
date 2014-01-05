@@ -42,7 +42,10 @@ http://yopo.es/cordovapi/cordovapi.apk
 * You must install Device Plugin in your cordova proyect: http://goo.gl/jcB2Cd 
 
 
+2. Done!
 
+
+Easy? (^_^)¡
 
 
 
