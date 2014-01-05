@@ -6,11 +6,11 @@ App = {};
 
   this.startApp = function(){
       cordovaLoadIfMobile();
-      App.loadMenu();
+      loadMenu();
     	App.loadModule(Proyect.CONFIG.app.startModule);
   };
 
-  this.loadMenu = function () {
+ var loadMenu = function () {
 
     var appHaveMainMenu = Proyect.CONFIG.app.main_menu;
 
@@ -68,7 +68,11 @@ App = {};
       };
 
       if(isMobile()){
-        requirejs(['cordova']);
+        require([
+           'mobile'
+        ], function () {
+            Mobile.load();
+        });
       }
   };
   

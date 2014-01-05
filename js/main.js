@@ -16,6 +16,7 @@ require.config({
         app: 'api/app',
         literals: 'api/literals',
         mainmenu: 'api/menu',
+        mobile: 'api/mobile'
     },
 
     shim: {
@@ -23,7 +24,8 @@ require.config({
         'bootstrap': ['jquery'],
         'proyectRouter': ['backbone'],
         'literals': ['proyectLiteralsData'],
-        'app': ['proyectRouter','proyectConfiguration','literals','mainmenu']
+        'app': ['proyectRouter','proyectConfiguration','literals','mainmenu'],
+        'mobile': ['cordova']
     }
 });
 

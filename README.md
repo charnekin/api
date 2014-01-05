@@ -31,10 +31,17 @@ http://yopo.es/cordovapi/cordovapi.apk
   STARTING WITH API
 ****************************************************************************************
 
-1. Download the code and put in you main /www cordova proyect. 
-2. Build
+1. Download and put all code into main www folder of your cordova proyect
+  /merges
+  /platforms
+  /plugins
+  /www --> insert all api downloaded here
 
-Easy? (^_^)
+* 1.1 You have to be one cordova proyect and at least one platform added. Official docs: http://goo.gl/aUVPSM
+* 1.2 You must install Device Plugin in your cordova proyect: http://goo.gl/jcB2Cd 
+
+
+2. Compile
 
 
 
@@ -139,18 +146,27 @@ Easy? (^_^)
             close main menú
             
 
+/js/api/mobile.js
 
+    --- Mobile.OS 
+          returns Operating System of Device
+
+    --- Mobile.OSVersion;
+          returns Operating System Version
+
+    --- Mobile.DeviceModel;
+          returns Model of Device
+
+* In this class you can especify different actions depending the kind of OS used.
 
 
 ****************************************************************************************
   IN THE NEXT UPDATE SOON
 ****************************************************************************************
-- Mobile class for control cordova load and usefull methods for handle terminal type / OS preferences
-- PHP Json Dispatcher for dummies (for server emulate)
-- JSON class for easiest ajax control
+- Json Dispatcher for local dummies (server emulate)
+- JSON class for easiest ajax and local data use
 - JSON class for handle errors
 - PopUp class for easiest popups launch
-- Tablet class to add exclusive functionality for tablets
 
 
 
