@@ -144,7 +144,8 @@ Easy? (^_^)¡
 /js/api/app.js
     
     --- App.loadModule("idmodule")
-        load module dependencies and append html at #pageContainer, after starts js of module --> startModule() 
+        load module dependencies and append html at #pageContainer
+        then call startModule function of loaded Class.
 
 /js/api/literals.js
 
@@ -191,11 +192,3 @@ Easy? (^_^)¡
 - JSON class for easiest ajax and local data use
 - JSON class for handle errors
 - PopUp class for easiest popups launch
-
-
-
-
-
-    
-
-
